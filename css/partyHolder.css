@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body:before {
+  content: "";
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  background-image: url("../images/video.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#video-box {
+  position: absolute;
+  width: 62%;
+  height: 76%;
+  left: 19%;
+  top: 8.6%;
+  background-color: black;
+}
+#myFrame {
+  width: 99.4%;
+  height: 100%;
+}
+#url {
+  display: block;
+  background-color: black;
+  width: 99.8%;
+}
+#sendURL {
+  width: 100%;
+  height: 30px;
+  box-shadow: 0px 10px 14px -7px #9fb4f2;
+  background-color: #3f3d56;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+}
+#chat-box {
+  position: absolute;
+  width: 15%;
+  height: 52%;
+  left: 81.45%;
+  top: 26%;
+}
+#messages {
+  height: 70%;
+  overflow: scroll;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+#buttons {
+  position: absolute;
+  left: 19%;
+  top: 5.9%;
+  z-index: 99;
+}
